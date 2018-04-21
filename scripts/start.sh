@@ -29,4 +29,5 @@ mysql -uroot -p$MYSQL_PASSWORD -e "UPDATE $HACKAZON_DB.tbl_users SET password='$
 killall mysqld
 sleep 10s
 
+#npm start &
 supervisord -n
